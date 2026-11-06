@@ -1,0 +1,5 @@
+# No server-side secrets to ignore (fully static app)
+# Keep local scratch files out of git
+*.ps1
+*.log
+scratch/
