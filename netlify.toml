@@ -1,0 +1,9 @@
+# My Day — Netlify config
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Security headers are kept in the _headers file (static files). The function response sets its own headers.

@@ -1,0 +1,106 @@
+{
+  "id": "./",
+  "name": "My Day",
+  "short_name": "My Day",
+  "description": "Daily expenses, study, reminders, birthdays and memories — all in one place.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#F2F5F3",
+  "theme_color": "#0A4F49",
+  "categories": [
+    "productivity",
+    "finance",
+    "education",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "assets/icon-192-v2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512-v2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-v2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add expense",
+      "short_name": "Expense",
+      "url": "./?action=exp",
+      "icons": [
+        {
+          "src": "assets/icon-192-v2.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "New reminder",
+      "short_name": "Reminder",
+      "url": "./?action=rem",
+      "icons": [
+        {
+          "src": "assets/icon-192-v2.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Study timer",
+      "short_name": "Study timer",
+      "url": "./?action=timer",
+      "icons": [
+        {
+          "src": "assets/icon-192-v2.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "New journal entry",
+      "short_name": "Journal",
+      "url": "./?action=mem",
+      "icons": [
+        {
+          "src": "assets/icon-192-v2.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ask assistant",
+      "short_name": "Assistant",
+      "url": "./?tab=chat",
+      "icons": [
+        {
+          "src": "assets/icon-192-v2.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
